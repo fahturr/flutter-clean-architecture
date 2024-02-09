@@ -1,0 +1,101 @@
+import 'package:paradox/src/features/order/data/mock/item/order_item.dart';
+
+Future<List<OrderItem>> getListOrder() {
+  var list = [
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+    const OrderItem(
+      id: 1,
+      namaCustomer: 'Budi',
+      statusOrder: 'STATUS TERKIRIM',
+      jenisOrder: 'Dana Tunia',
+      tahunKendaraan: '2014',
+      merkKendaraan: 'Honda',
+      tipeKendaraan: 'CR-V',
+    ),
+  ];
+
+  return Future.delayed(
+    const Duration(seconds: 7, milliseconds: 90),
+    () => list,
+  );
+}
